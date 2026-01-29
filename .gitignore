@@ -1,0 +1,10 @@
+*.o
+*.out
+hello
+employee
+logwriter
+
+*.log
+*~
+*.swp
+
