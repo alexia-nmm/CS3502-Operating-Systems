@@ -3,7 +3,9 @@
 hello
 employee
 logwriter
-
+assignment2/producer
+assignment2/consumer
+assignment2/*.o
 *.log
 *~
 *.swp
