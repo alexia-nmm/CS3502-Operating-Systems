@@ -15,3 +15,6 @@ phase4
 
 # System files
 .DS_Store
+# build artifacts
+a.out
+*.log
