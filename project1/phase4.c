@@ -57,7 +57,8 @@ double total_money() {
     }
     return total;
 }
-
+// Deadlock prevention using lock ordering
+// Always lock the lower account ID first to avoid circular wait
 int safe_transfer_ordered(int from, int to, double amount) {
 
     int first = (from < to) ? from : to;
