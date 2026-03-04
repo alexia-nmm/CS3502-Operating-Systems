@@ -1,0 +1,17 @@
+# Compiled executables
+phase1
+phase2
+phase3
+phase4
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Temporary editor files
+*~
+*.swp
+
+# System files
+.DS_Store
