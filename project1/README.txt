@@ -44,3 +44,5 @@ Dependencies
 
 Notes
 Phase 3 intentionally creates a deadlock for demonstration purposes. Phase 4 resolves this issue using lock ordering to ensure safe concurrent transfers.
+Repository
+This project is maintained using Git and version control was used throughout development to track changes across each phase of the assignment.
