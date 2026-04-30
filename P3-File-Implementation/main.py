@@ -591,7 +591,7 @@ class OwlFileManager(tk.Tk):
     # -----------------------------------------------------------------------
     # Status bar
     # -----------------------------------------------------------------------
-
+    # Fixed: store direct reference to status label for Windows compatibility
     def _set_status(self, msg: str, error: bool = False):
         self.status_var.set(msg)
         color = FG_ERROR if error else FG_OK
