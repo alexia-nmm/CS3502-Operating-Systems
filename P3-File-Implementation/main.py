@@ -288,7 +288,7 @@ class OwlFileManager(tk.Tk):
             p = p.parent
         self.current_path.set(str(p))
         self._refresh()
-
+    # added silent parameter to prevent refresh from overwriting status messages
     def _refresh(self, _event=None, silent=False):
         path = self.current_path.get()
         entries, msg = file_ops.list_directory(path)
